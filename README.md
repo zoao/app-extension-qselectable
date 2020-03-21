@@ -4,7 +4,6 @@ QSelectable - Quasar App Extension (qselectable)
 ![npm (scoped)](https://img.shields.io/npm/v/quasar-app-extension-qselectable.svg?style=plastic)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zoao/app-extension-qselectable.svg)]()
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/zoao/app-extension-qselectable.svg)]()
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qselectable.svg)](https://www.npmjs.com/package/quasar-app-extension-qselectable)
 
 
 QSelectable is an `UI App Extension` for [Quasar Framework v1](https://v1.quasar-framework.org/). It will not work with legacy versions of Quasar Framework.
