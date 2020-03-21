@@ -1,0 +1,122 @@
+{
+  "type": "component",
+  "props": {
+    "value": {
+      "type": "Object, Array",
+      "category": "model",
+      "desc": "`v-model`; Controls if item is selected. If is Array, has multi selection."
+    },
+    "val": {
+      "type": "Object",
+      "category": "model",
+      "desc": "The value if is selected"
+    },
+    "hideContentOnSelected": {
+      "type": "Boolean",
+      "category": "style",
+      "desc": "Hide item content when is selected. Show only content from selected slot"
+    },
+    "tabindex": {
+      "type": "String, Number",
+      "category": "state",
+      "desc": ""
+    },
+    "disable": {
+      "type": "Boolean",
+      "category": "state",
+      "desc": "Disable the item"
+    },
+    "longPressFirstSelection": {
+      "type": "Number",
+      "category": "state",
+      "desc": "Set the milliseconds for first selection, this way the simple click can do another operation, like zoom."
+    },
+    "onlySelectInIcon": {
+      "type": "Boolean",
+      "category": "state",
+      "desc": "Only permit select/unselect in icon"
+    },
+    "selectedIconColor": {
+      "type": "String",
+      "category": "style",
+      "desc": "Selected icon color"
+    },
+    "selectedIcon": {
+      "type": "String",
+      "category": "style",
+      "desc": "Selected icon"
+    },
+    "iconSize": {
+      "type": "String",
+      "category": "style",
+      "desc": "Icons size"
+            },
+    "onlyShowUnselectedIconIfOneSel": {
+              "type": "Boolean",
+      "category": "style",
+      "desc": "Only show the unselected icon if has one selected. If no is selected the icon is hidden"
+    },
+    "unselectedIcon": {
+      "type": "String",
+      "category": "style",
+      "desc": "Icon if item is unselected"
+    },
+    "unselectedIconColor": {
+      "type": "String",
+      "category": "style",
+      "desc": "Unselected icon color"
+    },
+    "paddingSelected": {
+      "type": "Boolean",
+      "category": "style",
+      "desc": "minimize the selected item"
+    },
+    "bgSelectedColor": {
+      "type": "String",
+      "category": "style",
+      "desc": "Background color when padding selected item"
+    },
+    "manual": {
+          "type": "Boolean",
+      "category": "state",
+      "desc": "No permit user input. The selecion/unselection only can be do in code"
+    },
+    "iconPosition": {
+          "type": "String",
+      "category": "state",
+      "desc": "Position of selected/unselected icon ",
+      "values": [
+        "top",
+        "left",
+        "right",
+        "bottom"
+      ],
+          "examples": [
+        "iconPosition=\"top right\"",
+        "iconPosition=\"bottom left\""
+          ]
+        }
+      },
+  "slots": {
+    "default": {
+      "desc": "This is the default slotted content",
+      "__exemption": [ "examples" ]
+    },
+    "selected": {
+      "desc": "The slot with content when item is selected",
+      "__exemption": [ "examples" ]
+    }
+  },
+  "scoped slots": {
+    "icon": {
+      "desc": "Slot with content to icon",
+      "params": {
+        "selected": {
+          "type": "Boolean",
+          "desc": "Item is selected"
+        }
+      },
+      "__exemption": [ "examples" ]
+    }
+  }
+}

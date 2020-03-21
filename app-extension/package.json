@@ -1,0 +1,36 @@
+{
+  "name": "quasar-app-extension-qselectable",
+  "version": "0.0.1",
+  "description": "Allow select one or more items. The items can be images ou any content",
+  "author": "João Martins",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "lint-fix": "eslint --ext .js,.vue src --fix",
+    "build-demo": "cd ./demo && yarn build && cd .. && cp ./_redirects ./demo/dist/spa && rm -r -f ./docs && cp -r ./demo/dist/spa/. ./docs",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoao/app-extension-qselectable"
+  },
+  "bugs": "",
+  "homepage": "https://github.com/zoao/app-extension-qselectable",
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^5.0.1",
+    "app-extension": "link:./../",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-vue": "^6.0.1"
+  }
+}

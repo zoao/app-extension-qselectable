@@ -1,0 +1,15 @@
+{
+  "qautomate": {
+    "quasarConfFixMode": "automatic",
+    "sort": true
+  },
+  "@quasar/qselectable": {},
+  "@quasar/qribbon": {},
+  "@quasar/qpublish": {},
+  "@quasar/colorize": {},
+  "@quasar/qmarkdown": {
+    "import_md": true,
+    "import_vmd": true
+  },
+  "@quasar/qzoom": {}
+}
