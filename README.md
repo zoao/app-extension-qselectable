@@ -21,8 +21,8 @@ To remove this App Extension from your Quasar application, run the following (in
 quasar ext remove qselectable
 ```
 
-#NPM Package
-Can be found [here] (https://www.npmjs.com/package/quasar-app-extension-qselectable)
+# NPM Package
+Can be found [here](https://www.npmjs.com/package/quasar-app-extension-qselectable)
 
 # Thanks
 Thanks for Quasar team, for this great framework, and particularly to Jeff Galbraith (@hawkeye64), for its extensions that are a source of inspiration.
