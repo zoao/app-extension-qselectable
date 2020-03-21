@@ -1,10 +1,11 @@
 QSelectable - Quasar App Extension (qselectable)
 ===
 
-![npm (scoped)](https://img.shields.io/npm/v/@quasar/quasar-app-extension-qselectable.svg?style=plastic)
+![npm (scoped)](https://img.shields.io/npm/v/quasar-app-extension-qselectable.svg?style=plastic)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zoao/app-extension-qselectable.svg)]()
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/zoao/app-extension-qselectable.svg)]()
-[![npm](https://img.shields.io/npm/dt/@quasar/quasar-app-extension-qselectable.svg)](https://www.npmjs.com/package/@quasar/quasar-app-extension-qselectable)
+[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qselectable.svg)](https://www.npmjs.com/package/quasar-app-extension-qselectable)
+
 
 QSelectable is an `UI App Extension` for [Quasar Framework v1](https://v1.quasar-framework.org/). It will not work with legacy versions of Quasar Framework.
 
@@ -12,11 +13,7 @@ QSelectable is an `UI App Extension` for [Quasar Framework v1](https://v1.quasar
 QSelectable extension allow select one or more items. The items can be images or any other content
 
 # Documentation and Demo
-Can be found [here](https://zoao.github.io/app-extension-qwindow).
-
-# Demo Project (source code)
-Can be found [here](https://github.com/zoao/app-extension-qselectable/tree/master/demo-src).
-
+Can be found [here](https://zoao.github.io/app-extension-qselectable/docs).
 
 # Install
 To add this App Extension to your Quasar application, run the following (in your Quasar app folder):
