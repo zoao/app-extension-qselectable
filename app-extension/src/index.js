@@ -9,7 +9,7 @@
 const extendConf = function(conf) {
   // make sure qselectable boot file is registered
   conf.boot.push(
-    "~@quasar/quasar-app-extension-qselectable/src/boot/qselectable.js"
+    "~quasar-app-extension-qselectable/src/boot/qselectable.js"
   );
 
   console.log(
