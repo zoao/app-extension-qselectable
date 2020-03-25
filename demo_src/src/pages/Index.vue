@@ -7,12 +7,12 @@ QSelectable is a [Quasar App Extension](https://quasar.dev/app-extensions/introd
 # Install
 To add this App Extension to your Quasar application, run the following (in your Quasar app folder):
 ```
-quasar ext add @quasar/qselectable
+quasar ext add qselectable
 ```
 # Uninstall
 To remove this App Extension from your Quasar application, run the following (in your Quasar app folder):
 ```
-quasar ext remove @quasar/qselectable
+quasar ext remove qselectable
 ```
 # Source code
 Can be found [here](https://github.com/zoao/app-extension-qselectable).
