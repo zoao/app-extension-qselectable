@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-qselectable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allow select one or more items. The items can be images ou any content",
   "author": "João Martins",
   "license": "MIT",
