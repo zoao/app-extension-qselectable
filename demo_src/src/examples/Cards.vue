@@ -1,5 +1,5 @@
 <template>
-  <div class="q-pa-md row items-start q-gutter-md">
+  <div class="sample q-pa-md row items-start q-gutter-md">
     <q-selectable v-model="selected" val="Image1" selectedIcon unselectedIcon bgSelectedColor="bg-primary"> 
       <q-card class="my-card" :class="{'text-white':selected=='Image1'}">
       <img src="https://cdn.quasar.dev/img/mountains.jpg">

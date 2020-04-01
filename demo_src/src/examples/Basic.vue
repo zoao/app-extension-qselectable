@@ -1,7 +1,7 @@
 <template>
-<div>
-  <p class="text-subtitle1">Single selection if v-model not is Array</p>
-  <div class="q-pa-md row items-start q-gutter-md">
+<div class="sample q-pa-md">
+  <p class="desc text-subtitle1">Single selection if v-model not is Array</p>
+  <div class="row items-start q-gutter-md">
     <q-selectable v-model="selected" val="Image2"> 
       <q-img src="https://cdn.quasar.dev/img/mountains.jpg" :ratio="1" style="width: 180px;" />
     </q-selectable>
@@ -15,8 +15,8 @@
     </q-selectable>
   </div>
 
-  <p class="text-subtitle1">Multi-selection if v-model is Array</p>
-  <div class="q-pa-md row items-start q-gutter-md">
+  <p class="desc text-subtitle1">Multi-selection if v-model is Array</p>
+  <div class="row items-start q-gutter-md">
     <q-selectable v-model="selectedValues" val="Image2"> 
       <q-img src="https://cdn.quasar.dev/img/mountains.jpg" :ratio="1" style="width: 180px;" />
     </q-selectable>

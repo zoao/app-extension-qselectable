@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class="sample q-pa-md">
   <p class="text-subtitle1">Gallery sample. Zoom with <a href="https://quasarframework.github.io/app-extension-qzoom/">QZoom extension</a></p>
 
-<p class="text-subtitle1">1. Long press, to select elements</p>
+<p class="desc text-subtitle1">1. Long press, to select elements</p>
   
   <div class="q-pa-md items-start q-gutter-md">
     <q-btn @click="selectedValues= []">uncheck All</q-btn>
@@ -27,7 +27,7 @@
       </q-zoom>
     </q-selectable>
   </div>
-    <p class="text-subtitle1">2. Only icon is selectable</p>
+    <p class="desc text-subtitle1">2. Only icon is selectable</p>
 <div class="q-pa-md row items-start q-gutter-md">
     <q-selectable v-model="selectedValues2" val="Image5" style="width: 180px;" onlySelectInIcon> 
       <q-zoom background-color="blue-grey-1">
